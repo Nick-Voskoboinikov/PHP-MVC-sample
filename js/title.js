@@ -1,0 +1,1 @@
+document.title=document.querySelectorAll('h1')[0].innerText;
