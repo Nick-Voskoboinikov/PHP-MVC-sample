@@ -18,20 +18,18 @@
     <link rel="stylesheet" href="css/styles.css" >
 </head> 
     <body>
-    <div class="fly-out-menu-btn"></div>
-        <?php include ($content_view); ?>
-
-    <div class="shadow"><dialog class="menu"><div class="close-menu">X</div>
-    <ul>
-        <li><a href="main/index">Main page</a></li>
-        <li><a href="portfolio">Portfolio</a></li>
-        <li><a href="main/aboutus">About us</a></li>
-        <li><a href="main/contacts">Contacts</a></li>
-        <li><a href="main/info">Running server info</a></li>
-    </ul>
-
-    </dialog></div>
-    <script src="js/showMenu.js" defer></script>
+    <nav>
+        <ul>
+            <li><a href="main/index">Main page</a></li>
+            <li><a href="portfolio">Portfolio</a></li>
+            <li><a href="main/aboutus">About us</a></li>
+            <li><a href="main/contacts">Contacts</a></li>
+            <li><a href="main/info">Running server info</a></li>
+        </ul>
+    </nav>
+    <section>
+            <?php include ($content_view); ?>
+    </section>
     <script src="js/title.js" defer></script>
     </body> 
 </html>
